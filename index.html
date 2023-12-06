@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stopwatch</title>
+    <style>
+        #stopwatch{
+            text-align: center;
+            border: 1px solid greenyellow;
+            width: 200px;
+            height: 30px;
+            margin: auto;
+            font-size: 1.5em;
+            margin-top: 200px;
+        }
+        .btn{
+            text-align: center;
+            margin: 5px 0 0 0;
+        }
+        .btn #start{
+            background-color: darkgreen;
+            color: azure;
+            padding: 10px;
+            font-size: 1em;
+        }
+        #start :hover{
+            cursor: pointer;
+        }
+        #pause:hover{
+            cursor: pointer;
+        }
+        #reset:hover{
+            cursor: pointer;
+        }
+        .btn #pause{
+            background-color: blue;
+            color: azure;
+            padding: 10px;
+            font-size: 1em;
+        }
+        .btn #reset{
+            background-color: red;
+            color: azure;
+            padding: 10px;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <p id="stopwatch"></p>
+    <div class="btn">
+        <button id="start">Start</button>
+        <button id="pause">Pause</button>
+        <button id="reset">Reset</button>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
